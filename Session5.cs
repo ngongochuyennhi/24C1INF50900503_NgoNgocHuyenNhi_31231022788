@@ -73,15 +73,15 @@ namespace _24C1INF50900503_NgoNgocHuyenNhi_31231022788
             return false;
         }
         //5.2. In các số hoàn hảo nhỏ hơn 1000
-        //static void Main(string[] args)
-        //{
-        //    Console.Write("Cac so hoan hao nho hon 1000 la: ");
-        //    for (int i = 1; i < 1000; i++)
-        //    {
-        //        if (isPerfect(i))
-        //            Console.Write(i + "   ");
-        //    }
-        //}
+        static void Main(string[] args)
+        {
+            Console.Write("Cac so hoan hao nho hon 1000 la: ");
+            for (int i = 1; i < 1000; i++)
+            {
+                if (isPerfect(i))
+                    Console.Write(i + "   ");
+            }
+        }
         static bool KiemTraPangram(string chuoi)
         {
             chuoi = chuoi.ToLower();
@@ -94,12 +94,12 @@ namespace _24C1INF50900503_NgoNgocHuyenNhi_31231022788
             // Nếu không thiếu chữ cái nào, thì chuỗi là pangram
             return true;
         }
-        //static void Main(string[] args)
-        //{
-        //    if (KiemTraPangram("The quick brown fox jumps over the lazy dog"))
-        //        Console.WriteLine("Chuoi la pangram");
-        //    else
-        //        Console.WriteLine("Chuoi khong phai la pangram");
-        //}
+        static void Main(string[] args)
+        {
+            if (KiemTraPangram("The quick brown fox jumps over the lazy dog"))
+                Console.WriteLine("Chuoi la pangram");
+            else
+                Console.WriteLine("Chuoi khong phai la pangram");
+        }
     }
 }

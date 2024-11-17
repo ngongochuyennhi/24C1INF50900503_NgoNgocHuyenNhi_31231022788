@@ -46,9 +46,9 @@ namespace _24C1INF50900503_NgoNgocHuyenNhi_31231022788
                 for (int j = 0; j < cols; j++)
                 {
                     a[i][j] = random.Next(0, 100);
-                    Nếu tự nhập:
-                    Console.Write($"a[{i}][{j}]= ");
-                    a[i][j] = int.Parse(Console.ReadLine());
+                    //Nếu tự nhập:
+                    //Console.Write($"a[{i}][{j}]= ");
+                    //a[i][j] = int.Parse(Console.ReadLine());
                 }
             }
         }
